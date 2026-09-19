@@ -6,9 +6,11 @@
     "experiment:lifo": "bun run src/experiment.ts --policy=lifo",
     "experiment:fifo": "bun run src/experiment.ts --policy=fifo",
     "compare": "bun run src/compare.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "typescript": "latest"
   }
 }
