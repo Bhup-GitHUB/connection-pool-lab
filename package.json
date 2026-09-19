@@ -1,0 +1,14 @@
+{
+  "name": "connection-pool-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "experiment:lifo": "bun run src/experiment.ts --policy=lifo",
+    "experiment:fifo": "bun run src/experiment.ts --policy=fifo",
+    "compare": "bun run src/compare.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
